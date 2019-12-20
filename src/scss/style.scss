@@ -1,1 +1,9 @@
+// main page
+@import "base/normalize.scss";
+@import "base/variables.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "base/general.scss";
+@import "components/header.scss";
+@import "components/banner.scss";
+@import "components/garanty.scss";
+@import "components/service.scss";
