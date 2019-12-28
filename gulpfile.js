@@ -39,6 +39,7 @@ const config = {
     server: {
         baseDir: "./build"
     },
+    port: 3030
     // tunnel: true,
     // host: 'localhost',
     // port: 8085,

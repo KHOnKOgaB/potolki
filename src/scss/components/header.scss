@@ -1,0 +1,37 @@
+.header-main{
+  padding: 4.5rem 0 2.1rem;
+}
+.header-navbar{
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 0;
+  .nav-item.show{
+    background: $light-blue;
+    .nav-link{
+      color: $warning;
+    }
+  }
+  .nav-item:not(:last-child){
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      height: 9px;
+      width: 1px;
+      background: $white;
+      transform: translateY(-50%);
+    }
+  }
+  .nav-link{
+    padding: 20px !important;
+  }
+  .dropdown-menu{
+    margin: 0;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background: $light-blue;
+  }
+}
