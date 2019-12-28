@@ -1,0 +1,21 @@
+ul.ceiling {
+  list-style: disc;
+  margin-left: 1.5rem;
+  li {
+    margin-top: 0.5rem;
+  }
+}
+.enot {
+  color: gray;
+  font-size: 10px;
+}
+.white-circle {
+  width: 230px;
+  height: 230px;
+  background-color: $white;
+  position: absolute;
+  box-shadow: 2px 3.464px 8px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
