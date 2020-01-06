@@ -1,17 +1,28 @@
+.right-banner {
+  position: relative;
+  z-index: -1;
+}
 .tkanevie {
   margin-top: 5rem;
 }
 .bottom-block {
-  margin-top: 15rem;
+  margin-top: 10rem;
+}
+.btn-icon {
+  width: 50px;
+  height: 50px;
 }
 .upper-underline {
   position: relative;
   &:before {
     content: '';
     position: absolute;
-    top: -4rem;
+    top: -3rem;
     height: 1px;
     width: 100%;
     background-color: $orange;
   }
+}
+.two-levels {
+  width: 100%;
 }
