@@ -1,0 +1,17 @@
+.tkanevie {
+  margin-top: 5rem;
+}
+.bottom-block {
+  margin-top: 15rem;
+}
+.upper-underline {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: -4rem;
+    height: 1px;
+    width: 100%;
+    background-color: $orange;
+  }
+}
