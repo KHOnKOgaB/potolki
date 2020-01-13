@@ -59,7 +59,7 @@
               <a class="dropdown-item" href="/svetilniki.html">Светильники</a>
             </div>
           </li>
-          <li class="nav-item text-center w-100"><a href="" class="nav-link">Галерея</a></li>
+          <li class="nav-item text-center w-100"><a href="/gallery.html" class="nav-link">Галерея</a></li>
           <li class="nav-item text-center w-100"><a href="/dileram.html" class="nav-link">Дилерам</a></li>
           <li class="nav-item text-center w-100"><a href="" class="nav-link">Калькулятор</a></li>
         </ul>
@@ -119,19 +119,15 @@
     </section>
     <section class="feedback">
       <div class="container">
-        <div class="row py-4 justify-content-center align-items-center">
-          <div class="col-4 text-right">
-            <p>
-              Оставь заявку на выезд замерщика
-              </p>
-          </div>
+        <form class="row py-4 justify-content-center align-items-center" action="/success.html" name="contact" netlify>
+          <div class="col-4 text-right">Оставь заявку на выезд замерщика</div>
           <div class="col-4">
-            <input type="text" class="form-control" placeholder="Введите номер телефона">
+            <input type="text" name="phone" class="form-control" placeholder="Введите номер телефона">
           </div>
           <div class="col-2">
             <button type="submit" class="btn btn-secondary my-1">Вызвать мастера</button>
-            </div>
-        </div>
+          </div>
+        </form>
       </div>
     </section>
     <footer class="footer">
