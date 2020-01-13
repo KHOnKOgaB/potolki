@@ -3,6 +3,7 @@
   text-align: center;
   font-size: 14px;
   transition: 0.2s ease-out;
+  height: 100%;
   &:hover {
     background-color: #FDB415;
     .service-text,
@@ -10,4 +11,8 @@
       color: $white;
     }
   }
+}
+.avatar {
+  height: 60px;
+  width: 60px;
 }
