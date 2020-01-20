@@ -22,3 +22,12 @@ ul.ceiling {
 .flag {
   max-width: 220px;
 }
+@include media-breakpoint-down(md) {
+  .flag {
+    max-width: 125px;
+  }
+  .white-circle {
+    width: 120px;
+    height: 120px;
+  }
+}
