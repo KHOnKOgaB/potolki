@@ -24,10 +24,11 @@ ul.ceiling {
 }
 @include media-breakpoint-down(md) {
   .flag {
-    max-width: 125px;
+    max-width: 145px;
   }
   .white-circle {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
+    left: 50%;
   }
 }

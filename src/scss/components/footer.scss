@@ -8,3 +8,8 @@ a.footer-link {
     color: #FDB415;
   }
 }
+@include media-breakpoint-down(md) {
+  .footer {
+    font-size: 13px;
+  }
+}
