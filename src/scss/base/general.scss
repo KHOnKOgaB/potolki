@@ -47,11 +47,6 @@ p {
 .--regular {
     font-weight: 400;
 }
-
-.--pink {
-    color: #ef5777;
-}
-
 .--orange {
   color: #FDB415;
 }
@@ -62,6 +57,18 @@ p {
 
 .--uppercase {
     text-transform: uppercase;
+}
+.btn-order {
+  padding: 0.5rem;
+  background-color: $orange;
+  color: $black;
+  border-radius: 10px;
+  width: 250px !important;
+  border: none;
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
 }
 
 ul {

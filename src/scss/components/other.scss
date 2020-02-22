@@ -35,6 +35,19 @@
   height: 100%;
 }
 
+.price-link {
+  padding: 0.7rem 2rem;
+  background-color: $orange;
+  color: $black;
+  border-radius: 10px;
+  &:hover {
+    background-color: $black;
+    color: $white !important;
+    text-decoration: none;
+  }
+
+}
+
 @include media-breakpoint-down(md) {
   .right-banner {
     display: none;
