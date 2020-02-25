@@ -8,6 +8,10 @@ a.footer-link {
     color: #FDB415;
   }
 }
+
+.social {
+  font-size: 1.2rem;
+}
 @include media-breakpoint-down(md) {
   .footer {
     font-size: 13px;
