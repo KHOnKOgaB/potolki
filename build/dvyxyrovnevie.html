@@ -121,12 +121,19 @@
                 </button>
               </div>
               <div class="modal-body">
-                <form class="row py-5 justify-content-center align-items-center" action="/success.html" name="contact" netlify>
-                  <div class="col-sm-12 col-md-7 mb-3">
-                    <input type="text" name="phone" class="feedback-form form-control" placeholder="Введите номер телефона">
-                  </div>
-                  <div class="col-sm-12 col-md-4 mb-3 text-center">
-                    <button type="submit" class="btn btn-warning my-1">Заказать</button>
+                <form action="/success.html" name="contact" netlify>
+                  <div class="container">
+                    <div class="row py-3 justify-content-center align-items-center">
+                      <div class="col-sm-12 col-md-8 mb-3">
+                        <input type="text" name="phone" class="feedback-form form-control" placeholder="Введите номер телефона">
+                      </div>
+                      <div class="col-sm-12 col-md-4 mb-3 text-center">
+                        <button type="submit" class="btn btn-warning my-1">Заказать</button>
+                      </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="g-recaptcha col-sm-12 mb-3" data-sitekey="6LcZXdwUAAAAANgBbV3Y8EQHeGQwP4hm7a1nhV1G"></div>
+                    </div>
                   </div>
                 </form>
                 Оставьте свой контактный телефон, наш менеджер свяжется с Вами и назначит приезд специалиста в удобное для Вас время.
@@ -218,7 +225,9 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </body>
 </html>
