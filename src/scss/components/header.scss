@@ -14,7 +14,7 @@
       color: $warning;
     }
   }
-  @include media-breakpoint-up(lg) {    
+  @include media-breakpoint-up(lg) {
     .nav-item:not(:last-child){
       position: relative;
       &:after{
@@ -39,4 +39,8 @@
     border-radius: 0;
     background: $light-blue;
   }
+}
+.main-logo {
+  width: 200px;
+  object-fit: contain;
 }
